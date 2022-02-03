@@ -37,9 +37,10 @@ And some more commands are there:
 ->ls     ( to list the files)
 ->ls -a   (to list all the file including hidden also)
 ->git commit -m "msg"
-->git checkout  (to see all the branches)
+->git branch  (to see all the branches)
 ->git checkout branchname   (to change the branch)
 ->git checkout commidId      (to see that commit)
 ->git checkout -b branchname (create and to change the branch)
 ->git branch branchname    (to create branch name)
+->git diff (this is used to see what we have changed in the files/used before the git add .)
 
