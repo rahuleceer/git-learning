@@ -1,0 +1,45 @@
+Hello
+
+My name is Rahul Saini. I am from Jaipur. I am doing my b.tech from NIT Delhi and the graduation year is 2023.
+
+So in this Assignment I have learned about the git Feature and also learn how to use github using git. So I did learn about the what is git? 
+and why we use git? and how we can create the repositories in github and do all the work using git?
+I did also learn about the cloning, pushing, pulling and commiting the code using git.
+
+Basically the git is a version control system which is used to do all the work of github using CLI.
+
+So first we setup our configuration using 
+->git config --global user.name "username"
+->git config --global user.email "useremail"
+
+after that we will initialize git in the project folder by
+->git init
+
+Now go to the github and create a repo there. copy the url and do
+->git remote add origin url
+
+the setup is done.
+now we can do some work and features by git:
+
+Cloning:
+creating a copy of the repo to your local storage is known as clonning. to do that go to the code copy the url link and run this command
+-> git clone url
+
+pushing:
+In this method we will update the changes to the files present in the repo by :
+->git push -u origin main
+
+And some more commands are there:
+->git status   (used to see that there are some pandings or not to commit)
+->git log      (used to see all the commit information)
+->git add "filename"  
+->git add .    (to add all the changes)
+->ls     ( to list the files)
+->ls -a   (to list all the file including hidden also)
+->git commit -m "msg"
+->git checkout  (to see all the branches)
+->git checkout branchname   (to change the branch)
+->git checkout commidId      (to see that commit)
+->git checkout -b branchname (create and to change the branch)
+->git branch branchname    (to create branch name)
+
